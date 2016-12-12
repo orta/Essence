@@ -253,6 +253,10 @@
     background-color: #ccc;
 }
 
+.monaco-workbench .part.editor.empty {
+    -webkit-app-region: drag;
+}
+
 /*
 
     EXECUTE
