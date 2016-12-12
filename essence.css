@@ -1,0 +1,303 @@
+/*
+
+    TOGGLE
+
+*/
+
+.vs .monaco-workbench>.editor>.content.vertical-layout>.one-editor-silo.editor-three,
+.vs .monaco-workbench>.editor>.content.vertical-layout>.one-editor-silo.editor-two {
+    border-left: 1px solid;
+    border-image: linear-gradient(to top, #e7e7e7, #e7e7e7 90%, rgba(232, 232, 232, 0)) 1 100%;
+}
+
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab:last-child:not(:first-child) {
+    border-right: 1px solid;
+    border-left: none;
+    border-image: linear-gradient(to bottom, #e7e7e7, #e7e7e7 54%, rgba(232, 232, 232, 0)) 1 100%;
+}
+
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab {
+    border-left: 1px solid;
+    border-right: none;
+    border-image: linear-gradient(to bottom, #e7e7e7, #e7e7e7 54%, rgba(232, 232, 232, 0)) 1 100%;
+    padding-left: 22.5px;
+    text-align: center;
+}
+
+.monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab.no-close-button {
+    padding-right: 22.5px;
+}
+
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab:not(.active) {
+    background: #fff;
+}
+
+.monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title:not(.tabs) {
+    height: 39px;
+}
+
+.monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container {
+    height: 39px;
+}
+
+.monaco-workbench>.part.editor>.content:not(.multiple-editors)>.one-editor-silo>.container>.title:not(.tabs) {
+    -webkit-app-region: drag;
+}
+
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab.no-close-button.dirty:before {
+    content: '';
+    position: absolute;
+    width: 54px;
+    height: 1px;
+    bottom: 4.5px;
+    left: calc(50% - 27px);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.135), rgba(255, 255, 255, 0));
+}
+
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab.no-close-button.dirty {
+    position: relative;
+    background-image: none;
+}
+
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab:first-child {
+    border-left: none;
+}
+
+.monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab {
+    height: 39px;
+}
+
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.active .tabs-container>.tab.active .tab-label a {
+    color: #545454 !important;
+}
+
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.active .tabs-container>.tab:not(.active) .tab-label a {
+    color: #bbb !important;
+}
+
+.vs .monaco-workbench>.part.titlebar.blurred {}
+
+.vs .monaco-workbench>.part.titlebar {
+    height: 4.5px;
+    opacity: 0;
+}
+
+.monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .title-actions {
+    display: none;
+}
+
+.monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.045);
+}
+
+.vs .monaco-workbench .monaco-editor-background:not(.one-editor-silo):not(.panel),
+    .monaco-workbench>.part.activitybar,
+    .monaco-workbench>.part.sidebar {
+    top: 0 !important;
+}
+
+.monaco-workbench .monaco-editor.mac .margin-view-overlays .line-numbers {
+    opacity: 0;
+    transition: opacity 0.09s ease-in-out;
+    will-change: opacity;
+}
+
+.monaco-workbench .monaco-editor.mac .margin-view-overlays .line-numbers:hover {
+    opacity: 1;
+}
+
+.monaco-workbench>.part.statusbar {
+    background: #FFF;
+    color: #999;
+    -webkit-app-region: drag;
+}
+
+.monaco-workbench>.part.statusbar:before {
+    content: '';
+    position: fixed;
+    bottom: 22px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.045);
+    pointer-events: none;
+}
+
+.monaco-workbench.no-workspace>.part.statusbar {}
+
+.vs .monaco-workbench:not(.fullscreen)>.part.editor>.content>.one-editor-silo.editor-one>.container>.title:before {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 79px;
+    height: 39px;
+    background: #fff;
+    -webkit-app-region: drag;
+    /*border-right: 1px solid;
+    border-image: linear-gradient(to bottom, #e7e7e7, #e7e7e7 54%, rgba(232, 232, 232, 0)) 1 100%;*/
+    box-shadow: 18px 0 22.5px 0 white;
+    z-index: 99999;
+}
+
+.vs .monaco-scrollable-element>.scrollbar>.slider {
+    background: rgba(0, 0, 0, 0.0675);
+}
+
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.tabs {
+    background: #fff
+}
+
+.monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .title-label {
+    text-align: right;
+    line-height: 39px;
+    padding-right: 36px;
+}
+
+.monaco-workbench>.part>.title>.title-label {
+    line-height: 39px;
+}
+
+.monaco-workbench>.part.activitybar>.content {
+    padding-bottom: 4px;
+    background-color: #ccc;
+}
+
+.vs .monaco-workbench>.activitybar>.content:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 101%;
+    background: #bbb;
+}
+
+.vs .monaco-workbench>.sidebar>:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 101%;
+    background: #ddd;
+}
+
+.statusbar .send-feedback {
+    display: none !important;
+}
+
+.monaco-workbench>.part.statusbar>.statusbar-item a:hover:not([disabled]):not(.disabled) {
+    background-color: hsla(0, 0%, 0%, .045);
+}
+
+.monaco-shell .git-statusbar-group>.git-statusbar-branch-item {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M27.459 14.902L17.02 4.463a1.517 1.517 0 0 0-1.089-.452c-.417 0-.793.157-1.089.452L12.594 6.71l2.549 2.549c.249-.112.522-.177.813-.177 1.106 0 2.002.896 2.002 2.002 0 .291-.064.565-.176.814l2.311 2.336c.25-.111.633-.234.923-.234 1.106 0 2 .911 2 2.016s-.894 1.969-2 1.969C19.911 17.984 19 17.234 19 16c0-.28.016-.462.119-.704l-2.373-2.374-.023.007v6.274A2.02 2.02 0 0 1 18 21.078c0 1.105-.878 2.016-1.984 2.016a2.053 2.053 0 0 1-2.031-2.031c0-.846.535-1.564 1.28-1.857l.001-6.25a1.996 1.996 0 0 1-1.147-2.659L11.564 7.74l-7.115 7.114a1.542 1.542 0 0 0 .001 2.178L14.89 27.55c.296.295.671.45 1.089.45.415 0 .796-.159 1.089-.45l10.391-10.471a1.541 1.541 0 0 0 0-2.177z' fill='%23ccc'/%3E%3C/svg%3E") !important;
+}
+
+.task-statusbar-item-label-error {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='13' height='13' viewBox='0 0 13 13' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.5 0a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zm3.9 9.1l-1.3 1.3-2.6-2.6-2.6 2.6-1.3-1.3 2.6-2.635L2.6 3.9l1.3-1.3 2.6 2.6 2.6-2.6 1.3 1.3-2.6 2.565L10.4 9.1z' fill='%23ccc' fill-rule='evenodd'/%3E%3C/svg%3E") 0 6px no-repeat;
+}
+
+.task-statusbar-item-label-warning {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='13' height='13' viewBox='0 0 13 13' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.15 0h-1.3L0 11.7 1.3 13h10.4l1.3-1.3L7.15 0zm0 11.7h-1.3v-1.3h1.3v1.3zm0-2.6h-1.3V3.9h1.3v5.2z' fill='%23ccc' fill-rule='evenodd'/%3E%3C/svg%3E") 6px 6px no-repeat;
+}
+
+.task-statusbar-item-label-info {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='-295.5 390.5 13 13'%3E%3Cpath fill='%23ccc' d='M-289 390.5c-3.6 0-6.5 2.9-6.5 6.5s2.9 6.5 6.5 6.5 6.5-2.9 6.5-6.5-2.9-6.5-6.5-6.5zm.9 11.1h-1.9v-6.5h1.9v6.5zm0-7.4h-1.9v-1.9h1.9v1.9z'/%3E%3C/svg%3E") 6px 6px no-repeat;
+}
+
+.quick-open-widget {
+    background-color: #fff;
+    box-shadow: 0 0 324px rgba(0, 0, 0, 0.09);
+    border-radius: 6.75px;
+    padding: 9px;
+}
+
+.quick-open-widget .monaco-tree-row {
+    border-radius: 2px;
+}
+
+.quick-open-widget .shadow.top {
+    height: 22.5px !important;
+    left: 0 !important;
+    box-shadow: inset 0 13.5px 18px white !important;
+    pointer-events: none;
+}
+
+.vs .global-message-list {
+    background: #bbb !important;
+    color: white;
+    transition: top .2s ease-in-out !important;
+    border-radius: 4.5px;
+    box-shadow: 0 0 72px rgba(0, 0, 0, 0.18);
+}
+
+.vs .global-message-list li.message-list-entry-with-action {
+    border-radius: 4.5px;
+}
+
+.vs .global-message-list li.message-list-entry .actions-container .message-action {
+    background-color: transparent;
+    font-weight: 700;
+    color: white;
+}
+
+.vs .global-message-list li.message-list-entry .message-left-side.severity {
+    border-radius: 2.25px;
+    text-transform: uppercase;
+}
+
+.vs .global-message-list li.message-list-entry .message-left-side {
+    font-weight: 500;
+}
+
+.vs .global-message-list li.message-list-entry .actions-container .message-action:hover {
+    background-color: #ccc;
+}
+
+/*
+
+    EXECUTE
+    (after having applied the previous CSS)
+
+    replace {
+        %23424242
+    } with {
+        %23BBBBBB
+    }
+
+    replace {
+        007acc
+    } with {
+        LightSlateGray
+    }
+
+*/
+
+
+/*
+
+    ISSUES
+
+    .monaco-workbench>.part.sidebar
+
+        I didn't find a way to easily increase
+        the sidebar height to full-height via
+        CSS. You'll notice a small, 4px empty
+        space at its bottom.
+
+*/
+
+
+/*
+
+    IDEAS
+
+    Editor Top Margin in Zen Mode
+
+        A margin to have space between text
+        and titlebar/tabbar.
+
+    Increase Number of Drag Regions
+
+        How? Where?
+
+*/
