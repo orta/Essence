@@ -88,7 +88,7 @@
     line-height: 39px;
 }
 
-.monaco-workbench>.part.editor>.content>.one-editor-silo.editor-one>.container>.title .title-actions .action-label.toolbar-toggle-more {
+.monaco-workbench:not(.nosidebar)>.part.editor>.content>.one-editor-silo.editor-one>.container>.title .title-actions .action-label.toolbar-toggle-more {
     display: block !important;
 }
 
