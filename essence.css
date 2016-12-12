@@ -241,6 +241,10 @@
     padding: 9px;
 }
 
+.quick-open-widget .quick-open-tree {
+    padding-bottom: 5px;
+}
+
 .quick-open-widget .monaco-tree-row {
     border-radius: 2px;
 }
