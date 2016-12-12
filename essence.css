@@ -180,6 +180,7 @@
 }
 
 .vs .monaco-workbench>.sidebar>.content {
+    position: relative;
     top: 4px;
     background: #f3f3f3;
 }
