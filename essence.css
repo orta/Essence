@@ -171,6 +171,19 @@
     background: #bbb;
 }
 
+.vs .monaco-workbench {
+    background: transparent;
+}
+
+.vs .monaco-workbench>.sidebar {
+    background: #f3f3f3;
+}
+
+.vs .monaco-workbench>.sidebar>.content {
+    top: 4px;
+    background: #f3f3f3;
+}
+
 .vs .monaco-workbench>.sidebar>:before {
     content: '';
     position: absolute;
@@ -283,10 +296,9 @@
 
     .monaco-workbench>.part.sidebar
 
-        I didn't find a way to easily increase
-        the sidebar height to full-height via
-        CSS. You'll notice a small, 4px empty
-        space at its bottom.
+        While the issue was solved, we are
+        left with a 4px space between the
+        sidebar title and the content.
 
 */
 
