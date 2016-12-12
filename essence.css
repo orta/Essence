@@ -112,6 +112,11 @@
     -webkit-app-region: drag;
 }
 
+/* Temporary workaround to avoid seeing white on white */
+.vs.monaco-workbench>.part.statusbar>.statusbar-item.statusbar-entry>* {
+    color: #999 !important;
+}
+
 .monaco-workbench>.part.statusbar:before {
     content: '';
     position: fixed;
