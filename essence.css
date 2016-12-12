@@ -1,6 +1,18 @@
 /*
 
-    TOGGLE
+    for Visual Studio Code {
+
+        Copyright (c) Microsoft Corporation. All rights reserved.
+        Licensed under the MIT License.
+
+    }
+
+    for Essence {
+
+        William Esz (c) 2016
+        MIT License
+
+    }
 
 */
 
@@ -315,48 +327,24 @@
 
 /*
 
-    EXECUTE
-    (after having applied the previous CSS)
-
-    replace {
+    now replace {
         %23424242
     } with {
         %23BBBBBB
-    }
+    } then
 
     replace {
         007acc
     } with {
         LightSlateGray
-    }
+    } then
 
-*/
-
-
-/*
-
-    ISSUES
-
-    .monaco-workbench>.part.sidebar
-
-        While the issue was solved, we are
-        left with a 4px space between the
-        sidebar title and the content.
-
-*/
-
-
-/*
-
-    IDEAS
-
-    Editor Top Margin in Zen Mode
-
-        A margin to have space between text
-        and titlebar/tabbar.
-
-    Increase Number of Drag Regions
-
-        How? Where?
+    open {
+        "/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js"
+    } replace {
+        titleBarStyle="hidden"
+    } with {
+        titleBarStyle="hidden-inset"
+    } done
 
 */
