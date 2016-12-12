@@ -15,7 +15,7 @@
     }
 
 */
-
+/*
 .vs .monaco-workbench>.editor>.content.vertical-layout>.one-editor-silo.editor-three,
 .vs .monaco-workbench>.editor>.content.vertical-layout>.one-editor-silo.editor-two {
     border-left: 1px solid;
@@ -34,7 +34,7 @@
     border-image: linear-gradient(to bottom, #e7e7e7, #e7e7e7 54%, rgba(232, 232, 232, 0)) 1 100%;
     padding-left: 22.5px;
     text-align: center;
-}
+}*/
 
 .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab.no-close-button {
     padding-right: 22.5px;
@@ -56,7 +56,7 @@
     -webkit-app-region: drag;
 }
 
-.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab.no-close-button.dirty:before {
+/*.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab.no-close-button.dirty:before {
     content: '';
     position: absolute;
     width: 54px;
@@ -64,7 +64,7 @@
     bottom: 4.5px;
     left: calc(50% - 27px);
     background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.135), rgba(255, 255, 255, 0));
-}
+}*/
 
 .vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab.no-close-button.dirty {
     position: relative;
@@ -147,7 +147,7 @@
 }
 
 .monaco-workbench.no-workspace>.part.statusbar {}
-
+/*
 .vs .monaco-workbench:not(.fullscreen)>.part.editor>.content>.one-editor-silo.editor-one>.container>.title:before {
     content: '';
     top: 0;
@@ -157,10 +157,10 @@
     background: #fff;
     -webkit-app-region: drag;
     /*border-right: 1px solid;
-    border-image: linear-gradient(to bottom, #e7e7e7, #e7e7e7 54%, rgba(232, 232, 232, 0)) 1 100%;*/
+    border-image: linear-gradient(to bottom, #e7e7e7, #e7e7e7 54%, rgba(232, 232, 232, 0)) 1 100%;
     box-shadow: 18px 0 22.5px 0 white;
     z-index: 99999;
-}
+}*/
 
 .vs .monaco-scrollable-element>.scrollbar>.slider {
     background: rgba(0, 0, 0, 0.0675);
@@ -348,3 +348,38 @@
     } done
 
 */
+
+ .monaco-workbench > .part.activitybar {
+  	width: 76px;
+	min-width: 76px;
+}
+
+.monaco-workbench > .part.activitybar {
+ 	width: 76px; /* Make some room for window controls */
+ 	-webkit-app-region: drag; /* Allow dragging on the wider activitybar */
+ }
+ 
+.monaco-workbench > .activitybar > .content .monaco-action-bar {
+ 	-webkit-app-region: no-drag; /* Still allow to click actions without dragging though */
+ }
+ 
+.monaco-workbench > .activitybar > .content > .monaco-action-bar.vertical {
+ 	padding-top: 24px; /* Spacing above the activitybar icons to fit the traffic lights */
+ }
+ 
+.monaco-workbench.fullscreen > .activitybar > .content > .monaco-action-bar.vertical {
+ 	padding-top: 0px; /* Remove spacing above the activitybar icons to as there are no traffic lights fullscreen */
+ }
+
+.monaco-workbench > .sidebar > .composite.title {
+ 	-webkit-app-region: drag; /* Allow dragging on part title */
+ }
+ 
+.monaco-workbench > .sidebar > .title > .title-actions .action-label {
+ 	-webkit-app-region: no-drag; /* Still allow to click actions without dragging though */
+ }
+
+.monaco-workbench>.activitybar>.content .monaco-action-bar .action-label {
+    width: 76px;
+    background-position: center;
+}
