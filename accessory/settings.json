@@ -1,0 +1,19 @@
+{
+    "editor.fontFamily": "'SF Mono'",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "all",
+    "editor.renderIndentGuides": true,
+    "editor.lineNumbers": "on",
+    "editor.wrappingColumn": 0,
+    "editor.wordWrap": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.openPositioning": "last",
+    "workbench.editor.showTabCloseButton": false,
+    "workbench.editor.showIcons": false,    
+    "workbench.sideBar.location": "right",
+	"workbench.statusBar.visible": true,
+	"workbench.activityBar.visible": true,
+    "window.zoomLevel": 0,
+    "window.fullScreenZenMode": false
+}
