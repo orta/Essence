@@ -108,11 +108,11 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.045);
 }
 
-.vs .monaco-workbench .monaco-editor-background:not(.one-editor-silo):not(.panel),
+/*.vs .monaco-workbench .monaco-editor-background:not(.one-editor-silo):not(.panel),
     .monaco-workbench>.part.activitybar,
     .monaco-workbench>.part.sidebar {
     top: 0 !important;
-}
+}*/
 
 .monaco-workbench .monaco-editor.mac .margin-view-overlays .line-numbers {
     opacity: 0;
