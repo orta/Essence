@@ -1,6 +1,6 @@
 A pragmatic fork of Essence mixing my [inline toolbar style](https://github.com/Microsoft/vscode/pull/12628)
 
-[![Showcase](showcase/i/E4.png)](showcase/showcase.md)
+[![Showcase](showcase/i/E1.png)](showcase/showcase.md)
 
 ---
 
