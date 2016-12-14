@@ -12,15 +12,16 @@ _note_: once [#12628](https://github.com/Microsoft/vscode/pull/12628) is merged 
 
 You need to change the traffic light position, this is controlled by `titleBarStyle` on a new Window.
 
+Set the user setting `"window.titleBarStyle": "custom"`.
+
 Open the workbench:
 
 ```
 code /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js
 ```
 
-Set the user setting `"window.titleBarStyle": "custom"`.
 
-##### `1.8.0`
+##### Code `1.8.0`
 
 Edit `(w.titleBarStyle="hidden",` to be `(w.titleBarStyle="hidden-inset",`.
 
