@@ -90,7 +90,7 @@
 .vs .monaco-workbench>.part.titlebar.blurred {}
 
 .vs .monaco-workbench>.part.titlebar {
-    height: 4.5px;
+    height: 0px;
     opacity: 0;
 }
 
@@ -350,12 +350,12 @@
 */
 
  .monaco-workbench > .part.activitybar {
-  	width: 76px;
-	min-width: 76px;
+  	width: 65px;
+	min-width: 65px;
 }
 
 .monaco-workbench > .part.activitybar {
- 	width: 76px; /* Make some room for window controls */
+ 	width: 65px; /* Make some room for window controls */
  	-webkit-app-region: drag; /* Allow dragging on the wider activitybar */
  }
  
@@ -380,6 +380,6 @@
  }
 
 .monaco-workbench>.activitybar>.content .monaco-action-bar .action-label {
-    width: 76px;
+    width: 65px;
     background-position: center;
 }
