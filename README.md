@@ -1,6 +1,6 @@
 A pragmatic fork of Essence mixing my [inline toolbar style](https://github.com/Microsoft/vscode/pull/12628)
 
-[![Showcase](showcase/i/E1.png)](showcase/showcase.md)
+![Showcase](showcase/i/E1.png)
 
 ---
 
@@ -49,3 +49,5 @@ Restart VS Code.
 ### Done
 
 You will see "Your Code installation appears to be corrupt. Please reinstall." on every new window, press escape to make it go away. You have modded VS Code
+
+I use the color theme "Ayu Light".

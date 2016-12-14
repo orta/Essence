@@ -115,7 +115,7 @@
 }*/
 
 .monaco-workbench .monaco-editor.mac .margin-view-overlays .line-numbers {
-    opacity: 0;
+    opacity: 0.1;
     transition: opacity 0.09s ease-in-out;
     will-change: opacity;
 }
@@ -346,8 +346,9 @@
     } with {
         titleBarStyle="hidden-inset"
     } done
-
 */
+
+/* Orta's Mods */
 
  .monaco-workbench > .part.activitybar {
   	width: 65px;
@@ -383,3 +384,18 @@
     width: 65px;
     background-position: center;
 }
+
+.monaco-workbench>.activitybar>.content .monaco-action-bar .badge {
+    width: 65px;
+}
+
+.monaco-workbench>.activitybar>.content .monaco-action-bar .badge .badge-content {
+    top: 22px;
+    right: 5px;
+    background-color:#666;
+}
+
+.monaco-workbench.no-workspace > .part.statusbar {
+    background-color:#eee;
+}
+
