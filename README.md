@@ -8,7 +8,7 @@ A pragmatic [fork of flagello/Essence](https://github.com/flagello/Essence) mixi
 
 ### Traffic Lights
 
-_note_ once [#12628](https://github.com/Microsoft/vscode/pull/12628) is merged this won't need to happen.
+_note_: once [#12628](https://github.com/Microsoft/vscode/pull/12628) is merged this won't need to happen.
 
 You need to change the traffic light position, this is controlled by `titleBarStyle` on a new Window.
 
