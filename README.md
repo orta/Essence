@@ -1,4 +1,4 @@
-A pragmatic fork of Essence mixing my [inline toolbar style](https://github.com/Microsoft/vscode/pull/12628)
+A pragmatic [fork of flagello/Essence](https://github.com/flagello/Essence) mixing my [inline toolbar style](https://github.com/Microsoft/vscode/pull/12628)
 
 ![Showcase](showcase/i/E1.png)
 
