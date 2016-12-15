@@ -8,22 +8,7 @@ A pragmatic [fork of flagello/Essence](https://github.com/flagello/Essence) mixi
 
 ### Traffic Lights
 
-_note_: once [#12628](https://github.com/Microsoft/vscode/pull/12628) is merged this won't need to happen.
-
-You need to change the traffic light position, this is controlled by `titleBarStyle` on a new Window.
-
 Set the user setting `"window.titleBarStyle": "custom"`.
-
-Open the workbench:
-
-```
-code /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js
-```
-
-
-##### Code `1.8.0`
-
-Edit `(w.titleBarStyle="hidden",` to be `(w.titleBarStyle="hidden-inset",`.
 
 ### Colors
 
@@ -51,4 +36,12 @@ Restart VS Code.
 
 You will see "Your Code installation appears to be corrupt. Please reinstall." on every new window, press escape to make it go away. You have modded VS Code
 
-I use the color theme "Ayu Light".
+I use the color theme "Ayu Light". If you find others that fit well, I'd love to make a list in here, send me a PR.
+
+---
+
+### Want to make improvements?
+
+The front-end is just a website, so you can use the chrome web inspector to make your changes. What I do is use the command "Developer: Toggle Developer Tools" then dig through the DOM to find the element to style.
+
+You can make your changes at runtime to verify them, then add them to the CSS file. Then validate they work by doing "Reload Window".

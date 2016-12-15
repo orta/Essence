@@ -399,3 +399,10 @@
     background-color:#eee;
 }
 
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container {
+    -webkit-app-region: drag; /* Allow dragging on empty space in tabs */
+}
+
+.vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab {
+    -webkit-app-region: no-drag; /* Allow dragging tabs to re-order */
+}
