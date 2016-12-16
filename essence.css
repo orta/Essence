@@ -41,7 +41,7 @@
 }
 
 .vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab:not(.active) {
-    background: #fff;
+    background: #eee;
 }
 
 .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title:not(.tabs) {
@@ -115,7 +115,7 @@
 }*/
 
 .monaco-workbench .monaco-editor.mac .margin-view-overlays .line-numbers {
-    opacity: 0.1;
+    opacity: 0.2;
     transition: opacity 0.09s ease-in-out;
     will-change: opacity;
 }
