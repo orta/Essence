@@ -10,6 +10,24 @@ A pragmatic [fork of flagello/Essence](https://github.com/flagello/Essence) mixi
 
 Set the user setting `"window.titleBarStyle": "custom"`.
 
+Now you need to edit the code the VS Code ships with.
+
+_note_: once [#12628](https://github.com/Microsoft/vscode/pull/12628) is merged this won't need to happen.
+
+You need to change the traffic light positions to move down a bit, this is controlled by `titleBarStyle` on a new Window.
+
+Set the user setting `"window.titleBarStyle": "custom"`.
+
+Open the workbench:
+
+```
+code /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js
+```
+
+##### Code `1.8.0` + `1.8.0`
+
+Edit `(w.titleBarStyle="hidden",` to be `(w.titleBarStyle="hidden-inset",`.
+
 ### Colors
 
 You need to use the extension "[Custom CSS and JS Loader](https://github.com/be5invis/vscode-custom-css)" - search and install it.

@@ -415,6 +415,10 @@
     background-color:#536A8D !important;
 }
 
+.vs .monaco-workbench.debugging>.activitybar>.content:before {
+    width:0;
+}
+
 .monaco-workbench.debugging>.part.statusbar {
     color: white;
 }
