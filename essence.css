@@ -204,7 +204,7 @@
 
 .vs .monaco-workbench>.sidebar>.content {
     position: relative;
-    top: 4px;
+    /*top: 4px;*/
     background: #f3f3f3;
 }
 
@@ -405,4 +405,25 @@
 
 .vs .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab {
     -webkit-app-region: no-drag; /* Allow dragging tabs to re-order */
+}
+
+/** When debugging something */
+.monaco-workbench.debugging>.part.statusbar {
+    background-color:#536A8D !important;
+}
+.monaco-workbench.debugging>.part.activitybar>.content {
+    background-color:#536A8D !important;
+}
+
+.monaco-workbench.debugging>.part.statusbar {
+    color: white;
+}
+
+.monaco-workbench.debugging>.part.statusbar:before {
+    height: 0;
+}
+
+/* When being ran in a debugger */
+.monaco-workbench.editing-extension>.part.activitybar>.content {
+    background-color:#e99;
 }
