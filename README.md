@@ -24,7 +24,7 @@ Open the workbench:
 code /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js
 ```
 
-##### Code `1.8.0` + `1.8.0`
+##### Code `1.8.0` + `1.8.1`
 
 Edit `(w.titleBarStyle="hidden",` to be `(w.titleBarStyle="hidden-inset",`.
 
